@@ -24,11 +24,11 @@ success_message() {
 }
 
 # Clone o repo obsidian-scripts sem exibir mensagens
-git clone https://github.com/seu-usuario/obsidian-scripts.git > /dev/null 2>&1
+git clone git@github.com:LuanAccioly/obsidian-notes.git > /dev/null 2>&1
 success_message "Clonagem do repositório obsidian-scripts"
 
 # Clone o repo linux-scripts sem exibir mensagens
-git clone https://github.com/seu-usuario/linux-scripts.git > /dev/null 2>&1
+git clone git@github.com:LuanAccioly/linux-scripts.git > /dev/null 2>&1
 success_message "Clonagem do repositório linux-scripts"
 
 # Instale o Obsidian usando o Yay
