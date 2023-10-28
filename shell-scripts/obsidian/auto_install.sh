@@ -44,9 +44,6 @@ fi
 # Adicione o alias ao arquivo ~/.zshrc
 echo 'alias obs="~/linux-scripts/obsidian/pc/pc.sh"' >> ~/.zshrc
 
-# Atualize o arquivo ~/.zshrc para refletir as alterações
-source ~/.zshrc
-
 success_message "Alias adicionado ao arquivo ~/.zshrc"
 
-echo "Configuração concluída. Você pode executar o Obsidian usando o comando 'obs'."
+echo "${green}✓ Finalizado. Reinicie o terminal e execute 'obs' para iniciar o obsidian${clear}"
